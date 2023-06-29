@@ -1,6 +1,6 @@
 # ANISIIA KURENOVA
 ******
-####Contact Information:
+#### Contact Information:
 * **Email:** anisia.kurenova@gmail.com
 * **Phone number:** +351914092111
 ## About me
@@ -16,3 +16,19 @@ I am an active, positive and attentive to detail person. Easily trainable, flexi
 * SCSS/SASS
 * GIT, GITHUB
 
+## Code examples
+*****
+
+> function multiply (a, b){
+ return c = a * b
+}
+
+## Education
+******
+* UDEMY courses: Web programming
+
+## Languages
+****
+* Ukrainian
+* Russian
+* English (B1)
