@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color:aliceblue;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:rgba(0, 0, 0, 0.929);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: black;
+    max-height: 51px;
+    padding: 3px 0 3px 0;
+}
+
+.header__nav-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    padding-right: 10px;
+    list-style: none;
+}
+
+.header__nav-items a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.header__nav-items:hover{
+    transform: translateY(10%);
+    transition: all ease-in-out 0.3s;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+  width: 50%;
+}
+
+.profile{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.profile__photo{
+    max-height: 150px;
+}
+
+.profile__photo img{
+    border-radius: 70% 70% 1% 90%;
+    height: 100%;
+}
+
+.profile__information{
+    align-self: center;
+}
+
+.profile__name{
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.profile__position{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.contacts, .summary, .skills, .code, .courses, .education, .english, .projects {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 50%;
+    align-items: center;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 30px;
+    margin: 15px;
+    margin-top: 0;
+}
+
+.contacts__list {
+    list-style: none;
+    margin: 0;
+}
+
+.contacts__items, .skills__items{
+    padding-top: 10px;
+}
+
+.contacts__items span {
+    padding-left: 25px;
+}
+
+.contacts__items span a {
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.skills__list, .courses__list, .projects__list {
+    margin: 0;
+}
+
+.footer{
+    background-color: black;
+    max-height: 71px;
+    padding: 3px 0 3px 0
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer__link a {
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.footer__link a:hover {
+    color:aliceblue;
+    text-decoration: underline;
+}
+
+.footer__wrapper {
+    max-width: 71px;
+}
+
+footer img {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+@media (max-width: 768px) {
+    section {
+      width: 100%;
+    }
+  }
