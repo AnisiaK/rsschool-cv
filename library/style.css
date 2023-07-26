@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header{
+    height: 90px;
+    padding: 20px;
+    background-color: #0C0C0E;
+}
+
+.header__wrapper{
+    display: flex;
+    gap: 454px;
+}
+
+.title{
+    font-family: 'Forum', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: #0C0C0E;
+}
+
+.header__title{
+    color: #FFF;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+}
+
+.header__wrapper_small{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.header__list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.header__items a{
+    color: #FFFFFF;
+    line-height: 50px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.header__items a:hover{
+    text-decoration: underline;
+    width: 28px;
+    height: 28px;
+
+}
+
+.header__icon{
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+}
+
+.header__icon img{
+    width: 28px;
+    height: 28px;
+}
+
+.welcome{
+    height: 600px;
+    background: url(img/1.png) no-repeat center/100%;
+}
+
+.welcome__container{
+    padding-top: 220px;
+    padding-left: 0;
+
+}
+
+.welcome__wrapper{
+    width: 600px;
+    height: 220px;
+    padding: 35px 40px;
+    background-color: #0C0C0E;
+    text-align: center;
+}
+
+
+.welcome__title{
+    color: #FFF;
+    line-height: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
